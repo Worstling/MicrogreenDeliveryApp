@@ -26,6 +26,7 @@
 		862822B22B796B3D000DC465 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862822A52B796B3D000DC465 /* Roboto-Thin.ttf */; };
 		862822B32B796B3D000DC465 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862822A62B796B3D000DC465 /* Roboto-Black.ttf */; };
 		862822B62B796EE5000DC465 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822B52B796EE5000DC465 /* UIFont+Extension.swift */; };
+		862822B82B7AB31D000DC465 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822B72B7AB31D000DC465 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		862822A52B796B3D000DC465 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		862822A62B796B3D000DC465 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		862822B52B796EE5000DC465 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		862822B72B7AB31D000DC465 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				862822B52B796EE5000DC465 /* UIFont+Extension.swift */,
+				862822B72B7AB31D000DC465 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				862822672B77E71F000DC465 /* AppDelegate.swift in Sources */,
 				862822B62B796EE5000DC465 /* UIFont+Extension.swift in Sources */,
 				862822692B77E71F000DC465 /* SceneDelegate.swift in Sources */,
+				862822B82B7AB31D000DC465 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
