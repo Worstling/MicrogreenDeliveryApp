@@ -27,6 +27,7 @@
 		862822B32B796B3D000DC465 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862822A62B796B3D000DC465 /* Roboto-Black.ttf */; };
 		862822B62B796EE5000DC465 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822B52B796EE5000DC465 /* UIFont+Extension.swift */; };
 		862822B82B7AB31D000DC465 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822B72B7AB31D000DC465 /* UIColor+Extension.swift */; };
+		862822BD2B7E2DCC000DC465 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822BC2B7E2DCC000DC465 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		862822A62B796B3D000DC465 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		862822B52B796EE5000DC465 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		862822B72B7AB31D000DC465 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		862822BC2B7E2DCC000DC465 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		862822652B77E71F000DC465 /* MicrogreenDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				862822B92B7E24AA000DC465 /* NavigationLayer */,
 				862822972B796A64000DC465 /* Resources */,
 				862822662B77E71F000DC465 /* AppDelegate.swift */,
 				862822682B77E71F000DC465 /* SceneDelegate.swift */,
@@ -139,6 +142,30 @@
 				862822B72B7AB31D000DC465 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		862822B92B7E24AA000DC465 /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				862822BA2B7E254A000DC465 /* Coordinators */,
+				862822BB2B7E25C4000DC465 /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		862822BA2B7E254A000DC465 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				862822BC2B7E2DCC000DC465 /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		862822BB2B7E25C4000DC465 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +253,7 @@
 			files = (
 				8628226B2B77E71F000DC465 /* ViewController.swift in Sources */,
 				862822672B77E71F000DC465 /* AppDelegate.swift in Sources */,
+				862822BD2B7E2DCC000DC465 /* Coordinator.swift in Sources */,
 				862822B62B796EE5000DC465 /* UIFont+Extension.swift in Sources */,
 				862822692B77E71F000DC465 /* SceneDelegate.swift in Sources */,
 				862822B82B7AB31D000DC465 /* UIColor+Extension.swift in Sources */,
