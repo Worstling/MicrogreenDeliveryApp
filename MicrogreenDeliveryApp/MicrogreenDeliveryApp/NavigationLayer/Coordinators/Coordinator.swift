@@ -12,7 +12,7 @@ enum CoordinatorType{
     case onboarding
     case menu
     case contacts
-    case basket
+    case cart
     case profile
 }
 
