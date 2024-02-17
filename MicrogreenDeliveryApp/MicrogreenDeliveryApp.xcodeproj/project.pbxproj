@@ -28,6 +28,8 @@
 		862822B62B796EE5000DC465 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822B52B796EE5000DC465 /* UIFont+Extension.swift */; };
 		862822B82B7AB31D000DC465 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822B72B7AB31D000DC465 /* UIColor+Extension.swift */; };
 		862822BD2B7E2DCC000DC465 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822BC2B7E2DCC000DC465 /* Coordinator.swift */; };
+		862822BF2B7E9730000DC465 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822BE2B7E9730000DC465 /* AppCoordinator.swift */; };
+		862822C12B7E995D000DC465 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822C02B7E995D000DC465 /* OnboardingCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		862822B52B796EE5000DC465 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		862822B72B7AB31D000DC465 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		862822BC2B7E2DCC000DC465 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		862822BE2B7E9730000DC465 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		862822C02B7E995D000DC465 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				862822BC2B7E2DCC000DC465 /* Coordinator.swift */,
+				862822BE2B7E9730000DC465 /* AppCoordinator.swift */,
+				862822C02B7E995D000DC465 /* OnboardingCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 				862822BD2B7E2DCC000DC465 /* Coordinator.swift in Sources */,
 				862822B62B796EE5000DC465 /* UIFont+Extension.swift in Sources */,
 				862822692B77E71F000DC465 /* SceneDelegate.swift in Sources */,
+				862822C12B7E995D000DC465 /* OnboardingCoordinator.swift in Sources */,
 				862822B82B7AB31D000DC465 /* UIColor+Extension.swift in Sources */,
+				862822BF2B7E9730000DC465 /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
