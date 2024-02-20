@@ -23,6 +23,7 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tabBar.backgroundColor = AppColors.background
+        tabBar.backgroundColor = AppColors.specialBeige
+        tabBar.tintColor = AppColors.specialGreen
     }
 }
